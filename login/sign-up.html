@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Sign-Up Page</title>
+</head>
+    <body>
+    <header>
+        <form action="../auth/sign-up.php" method="post">
+            <div class="login-box">
+                <h1>Sign-Up</h1>
+
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Username"
+                        name="username" value="">
+                </div>
+
+                <div class="textbox">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" placeholder="Password"
+                        name="password" value="">
+                </div>
+
+                <br>
+                <hr>
+
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Name"
+                        name="name" value="">
+                </div>
+
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Email"
+                        name="email" value="">
+                </div>
+
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="date" name="DoB">
+                </div>
+
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <textarea name="about" id="about" placeholder="About you and what you offer in exchange."></textarea>
+                </div>
+
+                <input class="button" type="submit"
+                    name="signup" value="Sign up">
+
+            </div>
+        </form>
+    </body>
+</html>
